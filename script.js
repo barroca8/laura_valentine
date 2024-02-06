@@ -10,7 +10,7 @@ $(document).ready(function () {
         document.getElementById("name").style.display = "none";
 
         document.getElementById("no-button").style.position = "absolute"
-        document.getElementsByClassName("image")[0].src = "images/cat_mad_orange.gif";
+        document.getElementsByClassName("image")[0].src = "cat_mad_orange.gif";
     
         var randX = Math.floor(Math.random() * (window.innerWidth - 100));
         var randY = Math.floor(Math.random() * (window.innerHeight - 100));
@@ -23,7 +23,7 @@ $(document).ready(function () {
     caller.on('click', function () {
         document.getElementById("question").textContent = "Stop that shit right now!!...";
         document.getElementById("name").style.display = "none";
-        document.getElementsByClassName("image")[0].src = "images/cats_fighting.gif";
+        document.getElementsByClassName("image")[0].src = "cats_fighting.gif";
     });
 
     yes_button.on('click', function () {
@@ -35,7 +35,7 @@ $(document).ready(function () {
         // Update text content, show message, and change image source to "dance.gif"
         var yesMessage = document.getElementById("question");
         yesMessage.textContent = "YESSSSSS it's a date! (14th Sushi)";
-        document.getElementsByClassName("image")[0].src = "images/cat_sushi.gif";
+        document.getElementsByClassName("image")[0].src = "cat_sushi.gif";
 
         // Remove yes button
         document.getElementById("yesButton").remove();
